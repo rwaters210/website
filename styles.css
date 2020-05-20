@@ -1,0 +1,164 @@
+header {
+
+    text-align: center;
+    background-image: url(../Pics/water.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: aqua;
+}
+
+li {
+    float: left;
+}
+
+li a {
+
+display: block;
+color:black;
+padding:14px 16px;
+background-color: aqua;
+text-decoration: none;
+font-size: 25px;
+font-weight: bold;
+}
+
+a:hover{
+    color: aqua;
+    background-color: rgb(80, 79, 79);
+}
+
+.search{
+    display: block;
+    float: right;
+    color:black;
+    padding:10px 2px;
+    margin: 0px;;
+    background-color: aqua;
+}
+
+h1{
+    color: black;
+    text-shadow: 1.5px 2px 4px white, 0px 0px 25px rgb(0, 0, 0);
+}
+
+p {
+    
+color: aqua;
+font-weight:bold;
+font-size: 18px;
+}
+
+body {
+    background-color: rgb(80, 79, 79);
+    margin: 0;
+    color:aqua;  
+}
+
+#first_para {
+    width:auto;
+    background-color: rgb(80, 79, 79);
+    color:aqua;
+    text-align: left;
+    text-indent: 50px;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+table, th, td {
+    align-content: center;
+    border: 1px solid aqua;
+    border-collapse: collapse;
+    padding: 10px 60px 10px 2px;
+}
+
+#water{
+
+    border: 1px solid  rgb(80, 79, 79);
+    border-radius:10px;
+    width:350px;
+    height:150px;
+    margin:0 auto;
+    
+}
+
+.face{
+
+border:1px solid wheat;
+border-radius:10px;
+height:480px;
+width:310px;
+margin: 10px;
+padding: 0px 0px 0px 1px;
+}
+
+input {
+    padding: 5px 5px;
+    box-sizing: border-box;
+    border: 4px aqua;
+    border-radius: 3px;
+}
+
+div.gallery {
+    float: left;
+    width: auto;
+    padding: 0px 50px 0px 50px;
+    font-size: 0px;
+}
+
+div.gallery:hover {
+    border:0px solid aqua;
+}
+
+#line{
+    border-top: 3px solid aqua;
+}
+
+.button{
+    background-color: aqua;
+    color:rgb(80, 79, 79);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid black;
+    padding: 12px 28px;
+}
+
+.button:hover {
+    background-color: rgb(80, 79, 79);
+    color:aqua;
+}
+
+.stack {
+    border:1px solid aqua;
+    clear: right;
+    float: right;
+}
+
+#rotate{
+    transform: rotate(90deg);
+    margin: 35px 100px 40px 0px;
+    height: 350px;
+    width: 100%;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color:aqua;
+    color: black;
+    text-align: center; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} 
+

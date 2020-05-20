@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.header {
+    background-color: blue;
+    padding: 20px;
+    text-align: center;
+}
+
+.topnav{
+    overflow: hidden;
+    background-color: aqua;
+}
+
+.topnav a{
+    float: left;
+    display: block;
+    color: black;
+    background-color: aqua;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+}
+
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100;
+    }
+}
+
+img{
+    width: 100%;
+}

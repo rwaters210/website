@@ -1,0 +1,65 @@
+#freestyle {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(80, 79, 79);
+}
+
+.sidenav{
+    box-sizing: border-box;
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: aqua;
+    overflow: hidden;
+}
+
+.sidenav a {
+    color:black;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.sidenav a:hover{
+    background-color: rgb(80, 79, 79);
+    color:aqua;
+}
+
+.content{
+    margin-left: 200px;
+    padding-left: 20px;
+    background-color:  rgb(80, 79, 79);
+    color: aqua;
+    font-size: 25px;
+}
+
+marquee {
+
+font-family: Georgia, 'Times New Roman', Times, serif;
+color:aqua;
+background-color: rgb(80, 79, 79);
+
+}
+
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color:aqua;
+    color: black;
+    text-align: center; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    } 
+
+.container{
+    border:1px solid aqua;
+    margin-left: 200px;
+    height:320px ;
+    width:10o%; 
+}
